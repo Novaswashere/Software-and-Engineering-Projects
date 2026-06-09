@@ -4,36 +4,35 @@
 **Language:** Python 3.x  
 **License:** MIT  
 
-Welcome to my Python engineering portfolio. This repository contains a collection of terminal-based software applications developed to demonstrate advanced Object-Oriented Programming (OOP) concepts, including encapsulation, state mutation, multi-agent interactions, and data logic modeling.
+Welcome to my Python engineering portfolio. This repository contains a collection of terminal-based software applications developed to demonstrate Object-Oriented Programming (OOP) concepts, including controller classes, state mutation, parallel data structures, and terminal-based logic modeling.
 
 ---
 
 ## 📂 Featured Projects
 
 ### 1. Multi-Agent Turn-Based RPG Arena Engine
-A fully automated combat simulation engine built using strict OOP principles. It features independent character agents that dynamically interact with one another within a terminal-logged combat loop.
+A terminal-based combat simulation engine built using OOP. It features independent character objects passed into a centralized controller to manage a combat loop.
 
 * **Core Concepts Demonstrated:**
-  * **Object Composition:** Passing object instances (target agents) into class methods to trigger interactions.
-  * **State Mutation:** Dynamically altering internal variables (HP, Attack, Defense) based on randomized game logic and defense algorithms.
-  * **Method Encapsulation:** Keeping combat math and critical-hit algorithms isolated within specific class behaviors.
+  * **Object Instantiation:** Generating distinct `Player` objects with unique starting parameters.
+  * **Controller Classes:** Using a `Battle` class to accept player objects and manage the interaction between them.
+  * **State Mutation:** Dynamically altering internal variables (Health) based on calculated attack and defense logic loops.
 
 ### 2. Digital Library Inventory System
-A backend terminal tracker that manages a central entity controlling an array of distinct, mutable objects. It prevents data conflicts and ensures logical state flow.
+A CLI-based inventory tracker that utilizes a central library class to manage and mutate parallel data lists securely. 
 
 * **Core Concepts Demonstrated:**
-  * **Data Architecture:** Managing an inventory array consisting of instantiated `Book` objects.
-  * **Logic Modeling:** Preventing conflicting data mutations (e.g., stopping a user from checking out a book that is already marked as checked out).
-  * **Centralized State Management:** Using a master `Library` class to view, filter, and interact with the child objects.
+  * **Parallel Data Structures:** Synchronizing multiple arrays (titles, authors, availability) to act as a unified database.
+  * **Logic Modeling & Safety:** Using custom class methods to prevent conflicting data mutations (e.g., stopping a user from checking out a book that is already marked as unavailable).
+  * **Interactive CLI Menu:** Building a continuous `while` loop interface for user-driven data querying.
 
 ### 3. Virtual Pet Shelter Simulator
-A Tamagotchi-style simulation engine that runs a real-time terminal menu to manage the state degradation of multiple independent entities simultaneously.
+A Tamagotchi-style simulation engine that runs a real-time terminal menu to manage the state degradation of multiple independent pets simultaneously.
 
 * **Core Concepts Demonstrated:**
-  * **Independent Object Instantiation:** Generating multiple unique simulated entities from the same base class, guaranteeing isolated data encapsulation.
-  * **Algorithmic State Degradation:** Implementing loops that actively decay variables (hunger, happiness) to simulate the passage of time.
-  * **Batch Processing:** Iterating through object arrays to apply global actions (e.g., "Feed All").
-
+  * **Independent Object Encapsulation:** Generating multiple unique simulated entities from the same base `pet` class, guaranteeing isolated data tracking.
+  * **Algorithmic State Degradation:** Implementing methods that actively decay variables (hunger, happiness) to simulate the passage of time.
+  * **User-Driven Actions:** Updating object states based on targeted CLI menu selections.
 ---
 
 ## 🚀 How to Run Locally (Step-by-Step Guide)
