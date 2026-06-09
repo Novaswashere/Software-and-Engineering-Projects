@@ -48,7 +48,14 @@ Step 2: Enter the master directory
 ```bash
 cd Software-and-Engineering-Projects
 ```
-**Step 3: Execute the application** Run the script using the Python command (Note: Use `python3` on macOS/Linux if `python` defaults to an older version):
+
+**Step 3: Enter the directory** You want to execute. For Example if we want to acess rpg-arena-engine we will run:
+```bash
+cd rpg-arena-engine
+```
+Alternatively, You may use: `cd digital-library-system` or `cd virtual-pet-simulator` 
+
+**Step 4: Execute the application** Run the script using the Python command (Note: Use `python3` on macOS/Linux if `python` defaults to an older version):
 ```bash
 python arena_engine.py
 ```
