@@ -46,16 +46,10 @@ git clone [https://github.com/Novaswashere/Software-and-Engineering-Projects.git
 ```
 Step 2: Enter the master directory 
 ```bash
-cd Software-and-Engineering-Projects
+python Software-and-Engineering-Projects
 ```
-**Step 4: Execute the application** Run the script using the Python command (Note: Use python3 on macOS/Linux if python defaults to an older version):
+**Step 3: Execute the application** Run the script using the Python command (Note: Use `python3` on macOS/Linux if `python` defaults to an older version):
 ```bash
-cd arena_engine.py
+python arena_engine.py
 ```
-Alternatively, You may use: 
-```bash 
-cd library_inventory.py
-```
-```bash
-cd pet_simulator.py
-```
+Alternatively, You may use: `python library_inventory.py` or `python pet_simulator.py`
