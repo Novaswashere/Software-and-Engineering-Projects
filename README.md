@@ -36,18 +36,26 @@ A Tamagotchi-style simulation engine that runs a real-time terminal menu to mana
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run Locally (Step-by-Step Guide)
 
-To run any of these applications on your local machine:
+**Prerequisite:** Ensure you have [Python 3.x](https://www.python.org/downloads/) installed on your machine. No external libraries are required.
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/Novaswashere/](https://github.com/Novaswashere/)[Software-and-Engineering-Projects].git
-   ```
-2.Navigate to the project directory you wish to test.
-
-3.Execute the Python script via your terminal:
-  ```Bash
-  python arena_engine.py
-  ```
-Note: No external libraries or dependencies are required. All applications run on standard Python Core Libraries.
+**Step 1: Clone the repository** Open your terminal (Mac/Linux) or Command Prompt/Git Bash (Windows) and run:
+```bash
+git clone [https://github.com/Novaswashere/Software-and-Engineering-Projects.git](https://github.com/Novaswashere/Software-and-Engineering-Projects.git)
+```
+Step 2: Enter the master directory 
+```bash
+cd Software-and-Engineering-Projects
+```
+**Step 4: Execute the application** Run the script using the Python command (Note: Use python3 on macOS/Linux if python defaults to an older version):
+```bash
+cd arena_engine.py
+```
+Alternatively, You may use: 
+```bash 
+cd library_inventory.py
+```
+```bash
+cd pet_simulator.py
+```
