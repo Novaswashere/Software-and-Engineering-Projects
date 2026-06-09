@@ -43,3 +43,11 @@ To run any of these applications on your local machine:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/Novaswashere/](https://github.com/Novaswashere/)[Software-and-Engineering-Projects].git
+
+2.Navigate to the project directory you wish to test.
+
+3.Execute the Python script via your terminal:
+  ```Bash
+  python arena_engine.py
+
+Note: No external libraries or dependencies are required. All applications run on standard Python Core Libraries.
