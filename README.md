@@ -46,7 +46,7 @@ git clone [https://github.com/Novaswashere/Software-and-Engineering-Projects.git
 ```
 Step 2: Enter the master directory 
 ```bash
-python Software-and-Engineering-Projects
+cd Software-and-Engineering-Projects
 ```
 **Step 3: Execute the application** Run the script using the Python command (Note: Use `python3` on macOS/Linux if `python` defaults to an older version):
 ```bash
